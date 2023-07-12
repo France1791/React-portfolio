@@ -71,7 +71,7 @@ export default function Home() {
       <li>JavaScript</li>
       <li>ReactJS</li>
       <li>Node JS</li>
-      <li>REST API's</li>
+      <li>REST APIs</li>
       </ul>
       <ul className="text-xl py-2">
       <li>SQL</li>
