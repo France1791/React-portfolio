@@ -18,19 +18,21 @@ export default function Home() {
           <ul className="flex items-center">
             <li><a href="#skills">Skills</a></li>
             <li><a className="ml-4"href="#projects">Projects</a></li>
-            <li><a className="bg-cyan-500 text-white px-4 py-2 rounded-md ml-4"href="#">Resume</a></li>
+            <li><a className="bg-cyan-500 text-white px-4 py-2 rounded-md ml-4"href="https://docs.google.com/document/d/17chxwQOu4wYAx8aRC-PP7Gd1nRNsQ37r7jJj8DVkM9A/edit">Resume</a></li>
           </ul>
         </nav>
         <div className="text-center p-10">
           <h2 className="text-5xl py-2 text-teal-400 font-medium">France Point Du Jour</h2>
           <h3 className="text-2xl py-2">Software Developer</h3>
-          < Image  src="/Snapchat-1334284873.jpg" width={200} height={500}/>
-          <p className="text-md py-5 text-gray-800">Hi I am France, a carribean, sun and nature lover Software Developer based in New York, US </p>
+          
+          < Image  src="/Snapchat-1334284873.jpg" className="mx-auto rounded-full relative overflow-hidden mt-20 md:h-96 md:w-96" width={200} height={500}/>
+          
+          <p className="text-md py-5 text-gray-800">Hi I am France, a carribean, sun and nature lover, Software Developer based in New York, US </p>
         </div>
         <div className="flex justify-center gap-16 py-4">
-        <a><AiFillTwitterCircle className="w-10 h-10"/></a>
-        <a><AiFillLinkedin  className="w-10 h-10"/></a>
-        <a><AiFillGithub className="w-10 h-10"/></a>
+        <a href="https://twitter.com/jour_france"><AiFillTwitterCircle className="w-10 h-10"/></a>
+        <a href="linkedin.com/in/france-point-du-jour-5968b423b"><AiFillLinkedin  className="w-10 h-10"/></a>
+        <a href="https://github.com/France1791"><AiFillGithub className="w-10 h-10"/></a>
         </div>
       </section>
       <section id="aboutme" className="shadow-lg p-10 rounded-xl my-10">
@@ -89,35 +91,35 @@ export default function Home() {
    <h2 className="text-3xl py-1 text-teal-400 font-medium">Projects</h2>
    <div className="flex justify-center gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src />
+              <Image src="/port1.jpg" className="mx-auto" width={200} height={500} />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Project1
               </h3>
               <p className="py-2">
-              This is an small website where I talk a bit about me, my passion and my goals.
-               I enjoyed making it while getting more practice on HTML5 and CSS.
+              I create an Express application with the basic create, read, update, delete features,
+               using PlanetScale to create the database.
               </p>
-              <a className="text-xl text-teal-400 font-medium"href="#">View here</a>
+              <a className="text-xl text-teal-400 font-medium"href="https://food-api-project.vercel.app/">View here</a>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src />
+              <Image src="/port2.jpg" className="mx-auto" width={200} height={500}/>
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Project2
               </h3>
               <p className="py-2">
-              This is an small website where I talk a bit about me, my passion and my goals. 
-              I enjoyed making it while getting more practice on HTML5 and CSS.
+              This project is a basic CRUD (create, read, update, delete) application incorporating 
+              database connectivity with JDBC, and Javalin-based RESTful endpoints consumed by HTTP Requests via Postman.
               </p>
-              <a className="text-xl text-teal-400 font-medium"href="#">View here</a>
+              <a className="text-xl text-teal-400 font-medium"href="https://project-0-taupe.vercel.app/">View here</a>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src />
+              <Image src="/port3.jpg" className="mx-auto" width={200} height={500} />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Project3
               </h3>
               <p className="py-2">
-              This is an small website where I talk a bit about me, my passion and my goals. 
-              I enjoyed making it while getting more practice on HTML5 and CSS.
+                TKH Capstone Project 2022-2023.This project is an application developed to manage inventory for small busineses,
+                 entreprises and personal use.This project is build with React, React-bootstrap, Express/Node.js, JWT etc.
               </p>
               <a className="text-xl text-teal-400 font-medium"href="https://capstone-group-3-imkewlhuh.vercel.app/home?authuser=0">View here</a>
             </div>
