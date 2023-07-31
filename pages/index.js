@@ -108,7 +108,7 @@ export default function Home() {
               <p className="py-2">
               This project is a basic Login page using ReactJS
               </p>
-              <a className="text-xl text-teal-400 font-medium"href="https://vercel.com/france1791/phase2-project-ytn1">View here</a>
+              <a className="text-xl text-teal-400 font-medium"href="https://phase2-project-ytn1-2i8hu8f4m-france1791.vercel.app/">View here</a>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <Image src="/port3.jpg" className="mx-auto" width={200} height={500} />
