@@ -106,10 +106,9 @@ export default function Home() {
                 Project2
               </h3>
               <p className="py-2">
-              This project is a basic CRUD (create, read, update, delete) application incorporating 
-              database connectivity with JDBC, and Javalin-based RESTful endpoints consumed by HTTP Requests via Postman.
+              This project is a basic Login page using ReactJS
               </p>
-              <a className="text-xl text-teal-400 font-medium"href="https://project-0-taupe.vercel.app/">View here</a>
+              <a className="text-xl text-teal-400 font-medium"href="https://vercel.com/france1791/phase2-project-ytn1">View here</a>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <Image src="/port3.jpg" className="mx-auto" width={200} height={500} />
