@@ -125,7 +125,7 @@ export default function Home() {
    </section>
    <div className="text-center p-10">
     <h1 className="text-xl py-5 text-gray-800">Contact me</h1>
-    <a className="text-xl" href="mailto:francepointdujour@gmail">francepointdujour@gmail.com</a>
+    <a className="text-xl" href="mailto:francepointdujour@gmail.com">francepointdujour@gmail.com</a>
    </div>
    
     </main>
