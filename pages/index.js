@@ -116,7 +116,7 @@ export default function Home() {
                 Project3
               </h3>
               <p className="py-2">
-                TKH Capstone Project 2022-2023.This project is an application developed to manage inventory for small busineses,
+              TKH Capstone Project 2022-2023.This project is an application developed to manage inventory for small busineses,
                  entreprises and personal use.This project is build with React, React-bootstrap, Express/Node.js, JWT etc.
               </p>
               <a className="text-xl text-teal-400 font-medium"href="https://capstone-group-3-imkewlhuh.vercel.app/home?authuser=0">View here</a>
@@ -131,4 +131,6 @@ export default function Home() {
     </main>
     </div>
   );
+
+  
 }
