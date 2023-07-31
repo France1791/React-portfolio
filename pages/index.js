@@ -123,11 +123,13 @@ export default function Home() {
             </div>
    </div>
    </section>
+   <section>
    <div className="text-center p-10">
     <h1 className="text-xl py-5 text-gray-800">Contact me</h1>
     <a className="text-xl" href="mailto:francepointdujour@gmail.com">francepointdujour@gmail.com</a>
    </div>
-   
+   </section>
+  
     </main>
     </div>
   );
