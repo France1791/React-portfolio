@@ -96,10 +96,9 @@ export default function Home() {
                 Project1
               </h3>
               <p className="py-2">
-              I create an Express application with the basic create, read, update, delete features,
-               using PlanetScale to create the database.
+              This was my first coding project. I realized a simple menu for a cafe using HTML and CSS to style it.
               </p>
-              <a className="text-xl text-teal-400 font-medium"href="https://food-api-project.vercel.app/">View here</a>
+              <a className="text-xl text-teal-400 font-medium"href="https://cafe-menu-rosy.vercel.app/">View here</a>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <Image src="/port2.jpg" className="mx-auto" width={200} height={500}/>
