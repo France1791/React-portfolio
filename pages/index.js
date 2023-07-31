@@ -31,7 +31,7 @@ export default function Home() {
         </div>
         <div className="flex justify-center gap-16 py-4">
         <a href="https://twitter.com/jour_france"><AiFillTwitterCircle className="w-10 h-10"/></a>
-        <a href="linkedin.com/in/france-point-du-jour-5968b423b"><AiFillLinkedin  className="w-10 h-10"/></a>
+        <a href="https://www.linkedin.com/in/france-point-du-jour-5968b423b/"><AiFillLinkedin  className="w-10 h-10"/></a>
         <a href="https://github.com/France1791"><AiFillGithub className="w-10 h-10"/></a>
         </div>
       </section>
@@ -127,7 +127,7 @@ export default function Home() {
    </section>
    <div className="text-center p-10">
     <h1 className="text-xl py-5 text-gray-800">Contact me</h1>
-    <a className="text-xl" href="#">francepointdujour@gmail.com</a>
+    <a className="text-xl" href="mailto:francepointdujour@gmail">francepointdujour@gmail.com</a>
    </div>
    
     </main>
